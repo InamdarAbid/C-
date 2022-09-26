@@ -1,0 +1,15 @@
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\bin\Debug\net6.0\BasicPractice.exe
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\bin\Debug\net6.0\BasicPractice.deps.json
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\bin\Debug\net6.0\BasicPractice.runtimeconfig.json
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\bin\Debug\net6.0\BasicPractice.dll
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\bin\Debug\net6.0\BasicPractice.pdb
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.csproj.AssemblyReference.cache
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.AssemblyInfoInputs.cache
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.AssemblyInfo.cs
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.csproj.CoreCompileInputs.cache
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.dll
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\refint\BasicPractice.dll
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.pdb
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\BasicPractice.genruntimeconfig.cache
+D:\Abid\Visual Studio Projects\C_Sharp\BasicPractice\obj\Debug\net6.0\ref\BasicPractice.dll
