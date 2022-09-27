@@ -31,7 +31,10 @@ class Porgram
          */
 
         //If statements 
-        IfStatements.IfElseExample();
+        //IfStatements.IfElseExample();
+
+        //Switch Statement 
+        SwitchStatement.SwitchEg();
 
     }
 }
