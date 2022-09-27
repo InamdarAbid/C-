@@ -34,7 +34,12 @@ class Porgram
         //IfStatements.IfElseExample();
 
         //Switch Statement 
-        SwitchStatement.SwitchEg();
+        //SwitchStatement.SwitchEg();
+
+        //Loops 
+        Loops.WhileLoop();
+        Loops.ForLoop();
+        Loops.DoWhileLoop();
 
     }
 }
