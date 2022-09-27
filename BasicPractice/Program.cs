@@ -37,9 +37,12 @@ class Porgram
         //SwitchStatement.SwitchEg();
 
         //Loops 
-        Loops.WhileLoop();
-        Loops.ForLoop();
-        Loops.DoWhileLoop();
+        //Loops.WhileLoop();
+        //Loops.ForLoop();
+        //Loops.DoWhileLoop();
+
+        //Method parameter types
+        MethodParameter.CallingMethod();
 
     }
 }
