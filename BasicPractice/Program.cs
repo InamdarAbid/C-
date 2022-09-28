@@ -44,8 +44,12 @@ class Porgram
         //Method parameter types
         //MethodParameter.CallingMethod();
 
-        ConstructorEg cs = new ConstructorEg();
-        ConstructorEg cs_2 = new ConstructorEg(13);
+        //Consructor 
+        //ConstructorEg cs = new ConstructorEg();
+        //ConstructorEg cs_2 = new ConstructorEg(13);
+
+        //Static class and constructor
+        StaticClass.Area(5);
 
     }
 }
