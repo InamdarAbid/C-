@@ -8,10 +8,14 @@ namespace BasicPractice
 {
     public class ConstructorEg
     {
-        public ConstructorEg()
-        {
-            Console.WriteLine("Default Constructor called");
-        }
+        //Default constructor 
+        //public ConstructorEg()
+        //{
+        //    Console.WriteLine("Default Constructor called");
+        //}
+
+        //Default constructor passing a default parameter to call parameterized constructor 
+        public ConstructorEg() : this(45) { }
 
         public ConstructorEg(int n)
         {
