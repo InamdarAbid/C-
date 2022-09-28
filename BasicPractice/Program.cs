@@ -42,7 +42,10 @@ class Porgram
         //Loops.DoWhileLoop();
 
         //Method parameter types
-        MethodParameter.CallingMethod();
+        //MethodParameter.CallingMethod();
+
+        ConstructorEg cs = new ConstructorEg();
+        ConstructorEg cs_2 = new ConstructorEg(13);
 
     }
 }
