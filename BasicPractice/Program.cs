@@ -52,13 +52,13 @@ class Porgram
         //StaticClass.Area(5);
 
         //Inheritance
-        PartTimeEmployee PTE = new PartTimeEmployee();
-        PTE.FirstName = "Abid";
-        PTE.LastName = "Inamdar";
-        PTE.PrintFullName();
+        //PartTimeEmployee PTE = new PartTimeEmployee();
+        //PTE.FirstName = "Abid";
+        //PTE.LastName = "Inamdar";
+        //PTE.PrintFullName();
 
-        InheritanceExample emp = new PartTimeEmployee();
-        emp.PrintFullName();
+        //InheritanceExample emp = new PartTimeEmployee();
+        //emp.PrintFullName();
 
 
 
