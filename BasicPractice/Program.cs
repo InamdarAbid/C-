@@ -49,7 +49,18 @@ class Porgram
         //ConstructorEg cs_2 = new ConstructorEg(13);
 
         //Static class and constructor
-        StaticClass.Area(5);
+        //StaticClass.Area(5);
+
+        //Inheritance
+        PartTimeEmployee PTE = new PartTimeEmployee();
+        PTE.FirstName = "Abid";
+        PTE.LastName = "Inamdar";
+        PTE.PrintFullName();
+
+        InheritanceExample emp = new PartTimeEmployee();
+        emp.PrintFullName();
+
+
 
     }
 }
