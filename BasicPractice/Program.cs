@@ -60,7 +60,20 @@ class Porgram
         //InheritanceExample emp = new PartTimeEmployee();
         //emp.PrintFullName();
 
+        //Example of runtime Polymorphism
+        Student[] e = new Student[4];
+        e[0] = new Student();
+        e[1] = new FullTimeStudent();
+        e[2] = new PartTimeStudent();
+        e[3] = new TemperoryTimeStudent();
 
+        foreach (Student empl in e)
+        {
+            empl.PrintFullName();
+        }
+
+        PolymorphismEg.area(10);
+        PolymorphismEg.area(5, 6);
 
     }
 }

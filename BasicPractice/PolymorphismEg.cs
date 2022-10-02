@@ -6,29 +6,59 @@ using System.Threading.Tasks;
 
 namespace BasicPractice
 {
+    public class Student
+    {
+        public string FirstName = "Default";
+        public string LastName = "Name";
+        public string Email;
+
+        public virtual void PrintFullName()
+        {
+            Console.WriteLine("Damm {0} {1}, you are still alive ? ", FirstName, LastName);
+        }
+    }
+    /// <summary>
+    /// First child or subclass class for Inheritance.
+    /// </summary>
+    public class FullTimeStudent : Student
+    {
+        public float YearlySalary;
+        //Override method using override keyword
+        public override void PrintFullName()
+        {
+            Console.WriteLine("Damm {0} {1}, youe are full time! ", FirstName, LastName);
+        }
+    }
+    /// <summary>
+    /// Second child or subclass of Inheritance.
+    /// </summary>
+    public class PartTimeStudent : Student
+    {
+        public float HourlyRate;
+        //use new keyword in child class method if we want to override (hide) parent method.
+        public new void PrintFullName()
+        {
+            Console.WriteLine("Damm {0} {1}, youe are part time! ", FirstName, LastName);
+        }
+    }
+    public class TemperoryTimeStudent : Student
+    {
+        public float wadge;
+        public override void PrintFullName()
+        {
+            Console.WriteLine("Damm {0} {1}, youe are temperory! ", FirstName, LastName);
+        }
+    }
+
     public class PolymorphismEg
     {
-        Example of runtime Polymorphism
-        Employee[] e = new Employee[4];
-        e[0] = new Employee();
-        e[1] = new PartTimeEmployee();
-        e[2] = new FullTimeEmployee();
-        e[3] = new TemperoryTimeEmployee();
-
-        foreach(Employee empl in e)
-        {
-            empl.PrintFullName();
-        }
-}
-
-    public static class CompiletimePolymorphism
-    {
+        //Compiletime polymorphism
         public static void area(int side)
         {
-            Console.WriteLine("Area of squeare : {0}",(side * side));
+            Console.WriteLine("Area of squeare : {0}",(side* side));
         }
 
-        public static void area(int l,int b)
+        public static void area(int l, int b)
         {
             Console.WriteLine("Area of rectangle : {0}", (l * b));
         }
