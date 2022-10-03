@@ -100,5 +100,11 @@ class Porgram
         //I.Print2();
 
 
+        //Multiple Inheritance using Interface
+        ChildClass c1 = new ChildClass();
+        c1.printHello();
+        c1.PrintHelloI2();
+
+
     }
 }

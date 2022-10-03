@@ -28,4 +28,30 @@ namespace BasicPractice
             Console.WriteLine("Child Interface implemented");
         }
     }
+
+
+    //Multiple inheritance using interface
+    interface BaseOne
+    {
+        public void printHello();
+    }
+
+    interface BaseTwo
+    {
+        public void PrintHelloI2();
+    }
+
+    public class ChildClass : BaseOne, BaseTwo
+    {
+        public void printHello()
+        {
+            Console.WriteLine("Hello world from Base One");
+        }
+
+        public void PrintHelloI2()
+        {
+            Console.WriteLine("Hello world from Base two");
+        }
+    }
+
 }
