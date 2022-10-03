@@ -94,9 +94,11 @@ class Porgram
         //student3.PrintStudent();
 
 
-        //Interface Example 
-        InterfaceExample I = new InterfaceExample();
-        I.Print();
-        I.Print2();
+        ////Interface Example 
+        //InterfaceExample I = new InterfaceExample();
+        //I.Print();
+        //I.Print2();
+
+
     }
 }
