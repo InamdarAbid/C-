@@ -77,21 +77,26 @@ class Porgram
         //PolymorphismEg.area(10);
         //PolymorphismEg.area(5, 6);
 
-        //Structure Example
-        Stud student = new Stud(101, "Abid");
-        student.PrintStudent();
+        ////Structure Example
+        //Stud student = new Stud(101, "Abid");
+        //student.PrintStudent();
 
-        Stud student2 = new Stud();
-        student2.Name = "Ram";
-        student2.Id = 102;
-        student2.PrintStudent();
+        //Stud student2 = new Stud();
+        //student2.Name = "Ram";
+        //student2.Id = 102;
+        //student2.PrintStudent();
 
-        Stud student3 = new Stud
-        {
-            Id = 104,
-            Name = "Sham"
-        };
-        student3.PrintStudent();
+        //Stud student3 = new Stud
+        //{
+        //    Id = 104,
+        //    Name = "Sham"
+        //};
+        //student3.PrintStudent();
 
+
+        //Interface Example 
+        InterfaceExample I = new InterfaceExample();
+        I.Print();
+        I.Print2();
     }
 }
