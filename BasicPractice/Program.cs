@@ -105,12 +105,15 @@ class Porgram
         //c1.printHello();
         //c1.PrintHelloI2();
 
-        //Abstract class
-        ACImplementation ACI = new ACImplementation();
-        ACI.PrintName("John");
-        //OR
-        AC abstractClassObject = new ACImplementation();
-        abstractClassObject.PrintName("John");
+        ////Abstract class
+        //ACImplementation ACI = new ACImplementation();
+        //ACI.PrintName("John");
+        ////OR
+        //AC abstractClassObject = new ACImplementation();
+        //abstractClassObject.PrintName("John");
+
+        //Delegate example
+
 
     }
 }
