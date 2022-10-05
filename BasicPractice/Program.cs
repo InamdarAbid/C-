@@ -113,6 +113,9 @@ class Porgram
         //abstractClassObject.PrintName("John");
 
         //Delegate example
+        Delegateeg.DelegateExample();
+
+        //Excpetion Handling
 
 
     }
