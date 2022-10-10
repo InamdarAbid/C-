@@ -58,6 +58,12 @@ namespace BasicPractice
                 Console.WriteLine(item);
             }
 
+            //Arrlist sort method need all element of same type 
+            //arrList2.Sort();
+
+            //Reverse the arrayList
+            arrList2.Reverse();
+
             Console.WriteLine("Arraylist 2 : ");
             foreach (var item in arrList2)
             {
@@ -70,7 +76,8 @@ namespace BasicPractice
             Console.WriteLine(arrlist1.Contains(10)); // false
             Console.WriteLine(arrlist1.Contains("Steve")); // false
 
-                
+            
+
         }
 
     }
