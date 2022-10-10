@@ -119,8 +119,10 @@ class Porgram
         //Exceptionhandling.ExceptionhandlingExample();
 
         //ArrayList
-        ArrayListEg.ArrayListExample();
+        //ArrayListEg.ArrayListExample();
 
+        //List 
+        ListEg.ListExample();
 
     }
 }
