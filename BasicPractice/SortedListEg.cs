@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,7 +33,33 @@ namespace BasicPractice
             {
                 Console.WriteLine("Key is {0} and value is {1}", pair.Key, pair.Value);
             }
-
+            Console.WriteLine("----------------------");
+            //Check if key exists in sorted list using Contains() method
+            if (list1.Contains(2))
+            {
+                Console.WriteLine("Key found");
+            }
+            else
+            {
+                Console.WriteLine("Key not found");
+            }
+            if (list1.ContainsKey(10))
+            {
+                Console.WriteLine("Key found");
+            }
+            else
+            {
+                Console.WriteLine("Key not found");
+            }
+            //Use ContainsValue() to check if value exists in SortedList()
+            if (list1.ContainsValue("Joe"))
+            {
+                Console.WriteLine("Value Found");
+            }
+            else
+            {
+                Console.WriteLine("Value not found");
+            }
             Console.WriteLine("----------------------");
             // Remove value having 1.07 key
             // Using Remove() method
