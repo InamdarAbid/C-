@@ -122,7 +122,10 @@ class Porgram
         //ArrayListEg.ArrayListExample();
 
         //List 
-        ListEg.ListExample();
+        //ListEg.ListExample();
+
+        //Hashset
+        HashSetEg.HashSetExample();
 
     }
 }
