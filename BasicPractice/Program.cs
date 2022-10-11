@@ -1,4 +1,5 @@
 ﻿using BasicPractice;
+using System.Collections;
 using static BasicPractice.Structure;
 
 class Porgram
@@ -125,7 +126,10 @@ class Porgram
         //ListEg.ListExample();
 
         //Hashset
-        HashSetEg.HashSetExample();
+        //HashSetEg.HashSetExample();
+
+        //SortedList
+        SortedListEg.SortedListExample();
 
     }
 }
