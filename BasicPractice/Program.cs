@@ -125,11 +125,12 @@ class Porgram
         //List 
         //ListEg.ListExample();
 
-        //Hashset
-        //HashSetEg.HashSetExample();
-
         //SortedList
-        SortedListEg.SortedListExample();
+        //SortedListEg.SortedListExample();
+
+        //Hashset
+        HashSetEg.HashSetExample();
+
 
     }
 }
